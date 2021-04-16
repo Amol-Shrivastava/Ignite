@@ -12,6 +12,9 @@ import { Link } from "react-router-dom";
 //Media resize
 import { smallImage } from "../util";
 
+//Animations
+import { popUp } from "../animation";
+
 const Games = ({ name, releasedOn, bgImg, id }) => {
   //Load Details
   const dispatch = useDispatch();
