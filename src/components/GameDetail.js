@@ -25,7 +25,7 @@ import starEmpty from "../img/star-empty.png";
 import starFull from "../img/star-full.png";
 
 //Animations
-import { popUp } from "../animation";
+// import { popUp } from "../animation";
 
 const GameDetail = () => {
   const history = useHistory();
@@ -89,11 +89,11 @@ const GameDetail = () => {
                 <h3>Platforms</h3>
                 <Platforms>
                   {game.platforms &&
-                    game.platforms.map((game) => (
+                    game.platforms.map((games) => (
                       <img
-                        key={game.platform.id}
-                        src={getPlatform(game.platform.name)}
-                        alt={game.platform.name}
+                        key={games.platform.id}
+                        src={getPlatform(games.platform.name)}
+                        alt={games.platform.name}
                       />
                     ))}
                 </Platforms>
