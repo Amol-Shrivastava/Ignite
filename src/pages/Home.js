@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 //STYLING AND ANIMATION
 import styled from "styled-components";
-import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
+import { motion } from "framer-motion";
 
 //COMPONENTS
 import Games from "../components/Games";

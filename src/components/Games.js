@@ -5,18 +5,14 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 //Redux
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { loadDetail } from "../actions/detailsAction";
 import { Link } from "react-router-dom";
 
 //Media resize
 import { smallImage } from "../util";
 
-//Animations
-import { popUp } from "../animation";
-
 const Games = ({ name, releasedOn, bgImg, id }) => {
-  const stringPathId = id.toString();
   //Load Details
   const dispatch = useDispatch();
 
