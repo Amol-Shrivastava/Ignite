@@ -8,7 +8,7 @@ import logo from "../img/logo.svg";
 //Redux and Routes
 import { fetchSearch } from "../actions/gamesAction";
 import { useDispatch } from "react-redux";
-import { searchGameURL } from "../api";
+// import { searchGameURL } from "../api";
 
 //Animations
 import { fadeIn } from "../animation";
